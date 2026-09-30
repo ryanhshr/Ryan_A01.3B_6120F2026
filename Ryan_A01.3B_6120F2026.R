@@ -45,7 +45,6 @@ pckgs <- c("psych",
            "tidyverse", 
            "GGally", 
            "ggpubr",
-           "zen4R",
            "usethis",
            "gitcreds")
 # Create object containing libraries
@@ -57,4 +56,5 @@ groundhog.library(pckgs, "2026-09-10") # Update groundhog day as needed
 #' Un-comment the above line if any 
 #' startup message(s) were suppressed for unknown reasons
 
-use_github()
+
+# This is a push attempt
