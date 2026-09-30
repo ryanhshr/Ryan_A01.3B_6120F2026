@@ -57,7 +57,8 @@ groundhog.library(pckgs, "2026-09-10") # Update groundhog day as needed
 #' startup message(s) were suppressed for unknown reasons
 
 use_git_config(user.name = "Ryan Hooshiar",
-               use.email = "ryanhshr@my.yorku.ca")
+               user.email = "ryanhshr@my.yorku.ca")
 
 use_git()
 
+#something
