@@ -46,7 +46,8 @@ pckgs <- c("psych",
            "GGally", 
            "ggpubr",
            "zen4R",
-           "usethis")
+           "usethis",
+           "gitcreds")
 # Create object containing libraries
 
 groundhog.library(pckgs, "2026-09-10") # Update groundhog day as needed
@@ -56,9 +57,4 @@ groundhog.library(pckgs, "2026-09-10") # Update groundhog day as needed
 #' Un-comment the above line if any 
 #' startup message(s) were suppressed for unknown reasons
 
-use_git_config(user.name = "Ryan Hooshiar",
-               user.email = "ryanhshr@my.yorku.ca")
-
-use_git()
-
-#something
+use_github()
