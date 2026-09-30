@@ -1,0 +1,5 @@
+# Pull Test
+# This file is an attempt at pulling from GitHub to R
+a = 1
+b = 2
+a + b
